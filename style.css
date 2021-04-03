@@ -8,6 +8,9 @@ html{
 .aboutuscontext {
   background-color: #227c9d; 
 }
+.casualcontext {
+  background-color: #17c3b2; 
+}
 .logo img{
     width: 4%;
     height: auto;
@@ -91,8 +94,6 @@ html{
   
   .blue {
     left: 0px;
-  
-  
   }
   
   .green {
