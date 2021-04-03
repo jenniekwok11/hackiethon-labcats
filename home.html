@@ -10,16 +10,13 @@
 
   <header className="menu-home">
   <div class="topnav">
-    <div class="logo">
-      <img src="img/logo.jpg">
-    </div>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
+    <a href="#aboutus">About Us</a>
     <a href="#casual">Casual</a>
     <a href="#professional">Professional</a>
 
-    
-      <a href="#contact">Contact</a>
+    <div class="topnav-right">
+      <a href="#faq">FAQ</a>
+    </div>
   </div>
     </nav>
   </header>
@@ -27,8 +24,20 @@
     <h1>LABCATS</h1>
     <h3>frdjwieolfuewp9a''ewqa4fj'pijewfcp'O{:KERWSAp }|F
       L{ERWAS'meh</h3>
-    <input type=text placeholder="Type Your Answer"> 
-    <button type="submit">Submit</button>
+    <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
+    <button onclick="rightanswer()">Check</button>
+      <h2 id="message1"></h2>
+      <script> 
+        function rightanswer() {
+          var answer1 = inputanswer.value;
+          if (answer1 == "Jennie") {
+            document.getElementById("message1").innerHTML = "Continue on...";
+          }
+          else {
+            document.getElementById("message1").innerHTML = "Try again!";
+          }
+        }
+      </script> 
     <footer>
 
     </footer>
