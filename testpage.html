@@ -263,21 +263,6 @@ function display() {
 
 requestAnimationFrame(update);
 
-/* load and add image to the drawing. It may take time to load. */
-function loadImage(url){
-    const image = new Image();
-    image.src = url;
-    image.onload = function(){
-        if(drawing && drawing.ctx){
-            drawing.width = image.width;
-            drawing.height = image.height;
-            drawing.ctx.drawImage(image,0,0);
-        };
-    }
-
- }
- loadImage("https://i.stack.imgur.com/C7qq2.png?s=328&g=1");
-        
 
 </script>
 
