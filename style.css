@@ -12,6 +12,10 @@ html{
   background-color: #17c3b2; 
 }
 
+.esc-context{
+  background-color: #586280 ;
+}
+
 .topnav {
     height: 70px;
     width: 100%;
@@ -56,13 +60,42 @@ html{
     height: 50px;
 
   }
+
+
   .menu-home h1{
-    position: relative;
     float: right;
     font-family: 'Recursive', sans-serif;
     font-size: 40px;
 
   }
+
+  .menu-esc img{
+    position: fixed;
+        right:480px;
+        top:10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+
+  }
+
+    .menu-esc h1{
+      position: fixed;
+        right:0;
+        top:10px;
+      font-family: 'Recursive', sans-serif;
+      font-size: 40px;
+  
+    }
+    .menu-esc h2{
+      position: fixed;
+        left:0;
+        top:10px;
+      font-family: 'Recursive', sans-serif;
+      font-size: 40px;
+  
+    }
 
   footer {
     margin-top: 5%;
@@ -195,3 +228,50 @@ html{
 
 }
   
+#esc-wel-text {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 50%;
+  height: 700px;
+  padding: 20px; 
+  position: static;
+}
+
+.esc-wel-buttons button {
+  margin-left: 100px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.chickenpng button {
+  width: 220px;
+  height: 270px;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: relative;
+  left: 120px;
+  
+}
+
+#chicken1 {
+  background-image: url(img/chicken1.png);
+  background-size: cover;
+  background-position: center;
+}
+#chicken2 {
+  background-image: url(img/chicken2.png);
+  background-size: contain;
+  background-position: center;
+}
+#chicken3 {
+  background-image: url(img/chicken3.png);
+  background-size: contain;
+  background-position: center;
+}
+#chicken4 {
+  background-image: url(img/chicken4.png);
+  background-size: contain;
+  background-position: center;
+}
