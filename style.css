@@ -10,11 +10,17 @@ html{
 }
 .topnav {
     overflow: hidden;
+<<<<<<< HEAD
 
     background-color: white;
     height: 70px;
     border-radius: 10px;
 
+=======
+    background-color: white;
+    height: 70px;
+    border-radius: 10px;
+>>>>>>> b35e6ef8aeeb3fae53fe6187d92a8d3826acfc06
   }
 
   .topnav a {
