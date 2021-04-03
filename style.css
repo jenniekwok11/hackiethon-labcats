@@ -11,17 +11,13 @@ html{
 .casualcontext {
   background-color: #17c3b2; 
 }
-.logo img{
-    width: 4%;
-    height: auto;
-    float: right;
-}
+
 .topnav {
     height: 70px;
     width: 100%;
     overflow: auto;
-
-   
+    background-color: whitesmoke;
+    border-radius: 10px;
   }
 
   .topnav a {
@@ -29,9 +25,9 @@ html{
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     width: 25%;
-    padding-top: 12px;
+    padding-top: 15px;
     padding-bottom: 30px;
     padding-right: 0%;
     padding-left: 0%;
@@ -50,20 +46,21 @@ html{
 
   .homecontext h1{
       text-align: center;
-
   }
 
   .menu-home img{
     float: right;
-    width: 100px;
-    height: 100px;
+    padding-top: 15px;
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
 
   }
   .menu-home h1{
     position: relative;
     float: right;
     font-family: 'Recursive', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
 
   }
 
@@ -71,9 +68,11 @@ html{
     background-color: white;
     border-radius: 10px; 
     margin: auto;
+    margin-top: 20px;
     width: 80%;
     height: 100%;
     padding: 20px; 
+  
 
   }
 
@@ -82,18 +81,15 @@ html{
     border-radius: 10px; 
     margin-left: auto;
     margin-right:auto; 
+    margin-top: 20px;
     width: 80%;
     height: 20px; 
     padding: 20px; 
 
+
   }
 
-  #space {
-    background-color:  #227c9d; 
-    margin:auto; 
-    width: 100%;
-    height: 20px; 
-  }
+
   p {
     margin: auto; 
     padding: 20px 60px 20px 60px; 
@@ -106,11 +102,11 @@ html{
   }
 
   .split {
-    height: 100%;
+    height: 30%;
     width: 25%;
     position: fixed;
     z-index: 0;
-    top: 0;
+    top: 40%;
     overflow-x: hidden;
     padding-top: 20px;
   }
@@ -138,7 +134,19 @@ html{
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  
-  .centered img {
-    height: 180px;
+
+  #aboutusimg {
+    height: 220px;
+  }
+
+  #casualimg {
+    height: 220px;
+  }
+
+  #professionalimg {
+    height: 170px;
+  }
+
+  #faqimg {
+    height: 150px;
   }
