@@ -1,15 +1,17 @@
 html{
     font-family: 'Kiwi Maru', serif;
 }
+
+.logo img{
+    width: 4%;
+    height: auto;
+    float: right;
+}
 .topnav {
     overflow: hidden;
     background-color: #333;
   }
 
-  .topnav {
-      float: right;
-  }
-  
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -33,3 +35,5 @@ html{
       text-align: center;
 
   }
+
+  
