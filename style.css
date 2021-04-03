@@ -64,6 +64,10 @@ html{
 
   }
 
+  footer {
+    margin-top: 5%;
+  }
+
   #whitebox1 { 
     background-color: white;
     border-radius: 10px; 
@@ -101,6 +105,7 @@ html{
     text-align: center; 
   }
 
+  /* home icons */
   .split {
     height: 30%;
     width: 25%;
@@ -150,3 +155,43 @@ html{
   #faqimg {
     height: 150px;
   }
+
+#casualdropbox {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 50%;
+  height: 300px;
+  padding: 20px; 
+
+
+}
+
+  /* casual select player */
+#cselectplay {
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align-last:center;
+  padding-left: 10px;
+  direction: ltr;
+  }
+
+#cselectplaytext {
+  padding-top: 125px;
+  padding-left: 100px;
+}
+
+#csubmitbutton {
+  float: right;
+  margin-top: 12%;
+  padding: 10px;
+  margin-right:1%;
+  border-radius: 10px;
+  border-style: hidden;
+
+}
+  
