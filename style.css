@@ -1,6 +1,6 @@
 html{
     font-family: 'Kiwi Maru', serif;
-    background-color:rgb(200, 237, 187);
+    background-image: linear-gradient(to right, blue 0%, blue 25%, green 25%,green 50%,yellow 50%,yellow 75%,red 75%,red 100%);
 }
 
 .logo img{
@@ -10,16 +10,18 @@ html{
 }
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
+    height: 70px;
+    border-radius: 10px;
   }
 
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 115px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   .topnav a:hover {
@@ -36,5 +38,3 @@ html{
       text-align: center;
 
   }
-
-  
