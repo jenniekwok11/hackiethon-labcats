@@ -2,6 +2,13 @@ html{
     font-family: 'Kiwi Maru', serif;
     
 }
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
 .homecontext{
   background-image: linear-gradient(to right, #227c9d 0%, #227c9d 25%, #17c3b2 25%,#17c3b2  50%,#ffcb77 50%,#ffcb77 75%,#fe6d73 75%,#fe6d73 100%);
 }
@@ -97,9 +104,6 @@ html{
   
     }
 
-  footer {
-    margin-top: 5%;
-  }
 
   #whitebox1 { 
     background-color: white;
