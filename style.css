@@ -1,6 +1,6 @@
 html{
     font-family: 'Kiwi Maru', serif;
-    background-image: linear-gradient(to right, blue 0%, blue 25%, green 25%,green 50%,yellow 50%,yellow 75%,red 75%,red 100%);
+    background-image: linear-gradient(to right, #227c9d 0%, #227c9d 25%, #17c3b2 25%,#17c3b2  50%,#ffcb77 50%,#ffcb77 75%,#fe6d73 75%,#fe6d73 100%);
 }
 
 .logo img{
