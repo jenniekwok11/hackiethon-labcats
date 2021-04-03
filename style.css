@@ -79,3 +79,42 @@ html{
 
   }
 
+  .split {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .blue {
+    left: 0px;
+  
+  
+  }
+  
+  .green {
+    left: 25%;
+  }
+  
+  .yellow {
+    right: 25%;
+  }
+  
+  .red {
+    right: 0px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+  }
