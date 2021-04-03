@@ -1,11 +1,12 @@
 html{
     font-family: 'Kiwi Maru', serif;
-    background-image: linear-gradient(to right, #227c9d 0%, #227c9d 25%, #17c3b2 25%,#17c3b2  50%,#ffcb77 50%,#ffcb77 75%,#fe6d73 75%,#fe6d73 100%);
-
     
 }
 .homecontext{
   background-image: linear-gradient(to right, #227c9d 0%, #227c9d 25%, #17c3b2 25%,#17c3b2  50%,#ffcb77 50%,#ffcb77 75%,#fe6d73 75%,#fe6d73 100%);
+}
+.aboutuscontext {
+  background-color: #227c9d; 
 }
 .logo img{
     width: 4%;
@@ -16,9 +17,6 @@ html{
     height: 70px;
     width: 100%;
     overflow: auto;
-    background-color: #ddd;
-    border-radius: 10px;
-
 
    
   }
@@ -35,21 +33,22 @@ html{
     padding-right: 0%;
     padding-left: 0%;
     font-weight: bold;
-    
   }
   
   .topnav a:hover {
     background-color: #ddd;
     color: black;
-    
   }
   
   .topnav a.active {
     background-color: #4CAF50;
     color: white;
-
   }
 
+  .homecontext h1{
+      text-align: center;
+
+  }
 
   .menu-home img{
     float: right;
@@ -62,6 +61,21 @@ html{
     float: right;
     font-family: 'Recursive', sans-serif;
     font-size: 50px;
+
+  }
+
+  #whitebox1 { 
+    background-color: white;
+    border-radius: 10px; 
+    margin: auto;
+    width: 90%;
+    height: 400px;
+
+  }
+  p {
+    margin: auto; 
+    padding: 10px;
+    text-align: center; 
 
   }
 
