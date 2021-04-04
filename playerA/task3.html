@@ -17,12 +17,33 @@
   </header>
   
  <body class="player1startcontext">
+<<<<<<< Updated upstream
     <div id="esc-wel-text"> 
         <p>hello</p>
         <a href="task3.html"><input id="csubmitbutton" type="submit" value="Submit"> </a>
         
         </div>
 
+=======
+    <div id="esc-task3"> 
+        <div id="centering">
+            <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
+            <button id="button1" onclick="rightanswer()">Check</button> 
+            <div id="break"></div>
+            <h2 id="message1"></h2>
+            </div>
+            <script> 
+              function rightanswer() {
+              var answer1 = inputanswer.value;
+              if (answer1 == "DIVERSITY" || answer1 == "diversity" || answer1 == "Diversity") {
+                location.href = "task2.html";
+              }
+              else {
+                document.getElementById("message1").innerHTML = "Try again!";
+              }
+              } 
+            </script> 
+>>>>>>> Stashed changes
     <footer>
         <p>A Labcat Production</p>
     </footer>

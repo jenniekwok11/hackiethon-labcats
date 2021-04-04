@@ -4,10 +4,17 @@ html{
 }
 
 footer {
-position: absolute;
-bottom: 0px;
-right: 0px;
+  position: fixed;
+  bottom: 0px;
+  width: 200px;
+  right: 0px;
+  
 }
+
+footer, .push {
+  border: 0px solid;
+  height: 0px; /* '.push' must be the same height as 'footer' */
+  }
 
 .player1startcontext {
   background-color: #5d6c9b; 
@@ -143,6 +150,17 @@ right: 0px;
     
     }
 
+    #csubmitbutton3 {
+      float: right;
+      margin-top: 12%;
+      padding: 15px;
+      margin-right:1%;
+      border-radius: 10px;
+      border-style: hidden;
+      font-size: 25px;
+      font-family: 'Recursive' sans-serif;
+    }
+
 .timer {
 font-size:20px;
 text-align:center;
@@ -183,3 +201,16 @@ text-align:center;
   background-color: #5d6c9b ;
   text-align: center;
 }
+
+
+#esc-task3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 80%;
+  height: 700px;
+  padding: 20px; 
+  position: static;
+}
+
