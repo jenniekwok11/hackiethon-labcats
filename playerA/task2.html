@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Bin Chicken - Task 2</title>
+    <title>Casual Gamers</title>
     <link rel ="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
@@ -11,9 +11,9 @@
   </head>
   
   <header class="menu-esc">
-    <a href="home.html"><h1> ICEBREAKERSDON'TSUCK.</h1></a>
-    <h2> THE ESCAPE GAME.</h2>
-    <a href="home.html"><img src="img/logo.png" alt="logo"></a>
+    <a href="../home.html"><h1> ICEBREAKERSDON'TSUCK.</h1></a>
+    <h2> THE ESCAPE ROOM.</h2>
+    <a href="../home.html"><img src="img/logo.png" alt="logo"></a>
 
 
   </header>
@@ -23,12 +23,16 @@
  <body class="player1startcontext">
 
   <div id="esc-wel-text"> 
-    <p>Bin Chicken:</p>
-    <p> What is Idiot Chicken's favourite fruit and why?.</p>
-    <div class="timer">Time Left:<span id="timer"></span> </div>
+    <h2>Passing the ball</h2>
+    <h3>Prompts to get to know each other! Ask one at a time and submit all at once.</h3>
+    <h3>Bin Chicken, ask Idiot Chicken:</h3>
+    <h4 style="font-size: 25px">What is Idiot Chicken's favourite fruit and why?</h4>
+
+    <button onclick="countDown()">Start</button>
+    <div style="font-size:15px" id="status"></div>
     <input id="desc" type="text">
-    <br>
     <a href="task3.html"><input id="csubmitbutton" type="submit" value="Submit"> </a>
+   
     
     </div>
     
@@ -42,6 +46,20 @@
 
 
 <script>
+
+function countDown() {
+    var secs = 60;
+    var element = document.getElementById('status');
+    
+    setInterval(function(){
+      element.innerHTML = "Time Left "+secs.toFixed(1)+" seconds";
+      if(secs < 1) {
+          element.innerHTML = '<h2>You have no time left!</h2>';
+      }  
+      secs--;
+    }, 1000)  
+
+}
   document.getElementById('timer').innerHTML =
   001 + ":" + 00;
 startTimer();

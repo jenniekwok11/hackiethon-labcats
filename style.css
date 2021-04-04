@@ -23,15 +23,6 @@ footer {
   background-color: #17c3b2; 
 }
 
-.professionalcontext {
-  background-color: #ffcb77; 
-}
-
-.faqcontext {
-  background-color: #fe6d73; 
-}
-
-
 .esc-context{
   background-color: #5d6c9b ;
 }
@@ -333,18 +324,6 @@ footer {
   background-position: center;
 }
 
-.timer{
-  text-align: center;
-  font-size: 25px;
-}
-
-
-.toast img{
-  height: 600px;
-  width: 100%;
-  align:center;
-  margin-top: 20px;
-}
 #random {
   background-color: white;
   background-image: url(img/random.jpeg);
@@ -384,4 +363,15 @@ footer {
 
 audio{
   width: 100%;
+}
+
+.casualgames button {
+  width: 200px;
+  height: 200px;
+  margin-left: 95px;
+  margin-right: 10px;
+  margin-top: px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
 }

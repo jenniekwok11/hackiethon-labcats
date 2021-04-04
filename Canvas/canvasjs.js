@@ -1,6 +1,5 @@
-// size of drawing and its starting background colour
 const drawingInfo = {
-    width: 600 ,
+    width: 800 ,
     height: 500,
     bgColor: "white",
   }
@@ -61,8 +60,8 @@ const drawingInfo = {
   const canvas = document.getElementById("canvas-display");
   const mouse = createMouse().start(canvas, true);
   const ctx = canvas.getContext("2d");
-  var updateDisplay = true; // when true the display needs updating
-  var ch, cw, w, h; // global canvas size vars
+  var updateDisplay = true; 
+  var ch, cw, w, h; 
   
   
   var currentLine;
@@ -72,17 +71,15 @@ const drawingInfo = {
     y: 0
   };
   
-  // a point object creates point from x,y coords or object that has x,y
   const point = (x, y = x.y + ((x = x.x) * 0)) => ({
     x,
     y
   });
-  // function to add a point to the line
   function addPoint(x, y) {
     this.points.push(point(x, y));
   }
   
-  function drawLine(ctx, offset) { // draws a line
+  function drawLine(ctx, offset) { 
     ctx.strokeStyle = this.color;
     ctx.lineWidth = this.width;
     ctx.lineJoin = "round";
@@ -105,9 +102,7 @@ const drawingInfo = {
       draw: drawLine,
     };
   }
-  
-  
-  // creates a canvas
+
   function createCanvas(width, height) {
     const c = document.createElement("canvas");
     c.width = width;
@@ -115,7 +110,6 @@ const drawingInfo = {
     c.ctx = c.getContext("2d");
     return c;
   }
-  // resize main display canvas and set global size vars
   function resizeCanvas() {
     ch = ((h = canvas.height = innerHeight - 32) / 2) | 0;
     cw = ((w = canvas.width = innerWidth) / 2) | 0;
@@ -130,10 +124,9 @@ const drawingInfo = {
       buttonRaw: 0,
       prevButton: 0
     };
-    const bm = [1, 2, 4, 6, 5, 3]; // bit masks for mouse buttons
+    const bm = [1, 2, 4, 6, 5, 3]; 
     const mouseEvents = "mousemove,mousedown,mouseup".split(",");
     const m = mouse;
-    // one mouse handler
     function mouseMove(e) {
       m.bounds = m.element.getBoundingClientRect();
       m.x = e.pageX - m.bounds.left - scrollX;
@@ -144,21 +137,18 @@ const drawingInfo = {
       } else if (e.type === "mouseup") {
         m.buttonRaw &= bm[e.which + 2];
       }
-      // check if there should be a display update
       if (m.buttonRaw || m.buttonRaw !== m.prevButton) {
         updateDisplay = true;
       }
-      // if the mouse is down and the prev mouse is up then start a new line
-      if (m.buttonRaw !== 0 && m.prevButton === 0) { // starting new line
+      if (m.buttonRaw !== 0 && m.prevButton === 0) { 
         currentLine = createLine(currentColor, currentWidth);
-        currentLine.add(m); // add current mouse position
-      } else if (m.buttonRaw !== 0 && m.prevButton !== 0) { // while mouse is down
-        currentLine.add(m); // add current mouse position      
+        currentLine.add(m); 
+      } else if (m.buttonRaw !== 0 && m.prevButton !== 0) { 
+        currentLine.add(m);     
       }
-      m.prevButton = m.buttonRaw; // remember the previous mouse state
+      m.prevButton = m.buttonRaw;
       e.preventDefault();
     }
-    // starts the mouse 
     m.start = function(element, blockContextMenu) {
       m.element = element;
   
@@ -171,54 +161,44 @@ const drawingInfo = {
     return m;
   }
   var cursor = "crosshair";
-  function update(timer) { // Main update loop
-    cursor = "crosshair";
+  function update(timer) { 
     globalTime = timer;
-    // if the window size has changed resize the canvas
     if (w !== innerWidth || h !== innerHeight) {
       resizeCanvas()
     }
     if (updateDisplay) {
       updateDisplay = false;
-      display(); // call demo code
+      display();
     }
    
     ctx.canvas.style.cursor = cursor;
     requestAnimationFrame(update);
   }
-  // create a drawing canvas.
   const drawing = createCanvas(drawingInfo.width, drawingInfo.height);
-  // fill with white
   drawing.ctx.fillStyle = drawingInfo.bgColor;
   drawing.ctx.fillRect(0, 0, drawing.width, drawing.height);
   
-  // function to display drawing 
   function display() {
     ctx.clearRect(0, 0, w, h);
     ctx.fillStyle = "rgba(0,0,0,0.25)";
     const imgX = cw - (drawing.width / 2) | 0;
     const imgY = ch - (drawing.height / 2) | 0;
-    // add a shadow to make it look nice
-    ctx.fillRect(imgX + 5, imgY + 5, drawing.width, drawing.height);
   
-    // add outline
     ctx.strokeStyle = "black";
     ctx.lineWidth = "2";
     ctx.strokeRect(imgX, imgY, drawing.width, drawing.height);
-    // draw the image
     ctx.drawImage(drawing, imgX, imgY);
     if (mouse.buttonRaw !== 0) {
       if (currentLine !== undefined) {
-        currentLine.draw(ctx, displayOffset); // draw line on display canvas
+        currentLine.draw(ctx, displayOffset); 
         cursor = "none";
-        updateDisplay = true; // keep updating 
+        updateDisplay = true; 
       }
     } else if (mouse.buttonRaw === 0) {
       if (currentLine !== undefined) {
-        currentLine.draw(drawing.ctx, {x: -imgX, y: -imgY }); // draw line on drawing
+        currentLine.draw(drawing.ctx, {x: -imgX, y: -imgY }); 
         currentLine = undefined;
         updateDisplay = true;
-        // next line is a quick fix to stop a slight flicker due to the current frame not showing the line
         ctx.drawImage(drawing, imgX, imgY);
   
       }

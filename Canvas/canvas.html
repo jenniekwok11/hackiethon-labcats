@@ -10,6 +10,31 @@
 
 
 <body>
+  <div class="promptbtn">
+  <a id="myButton" href="#">
+    Generate a prompt!
+</a>
+<div id="prompt">
+</div>
+<script type="text/javascript" charset="utf-8">
+    var randomStrings = [
+        "hello 1",
+        "hello 2",
+        "hello 3", 
+        "hello 4",
+        "hello 5",
+    ];
+    var randomDiv = document.getElementById("prompt");
+
+    document.getElementById("myButton").addEventListener("click", function() {
+          randomIndex = Math.ceil((Math.random()*randomStrings.length-1));
+          newText = randomStrings[randomIndex];
+          randomDiv.innerHTML = newText;
+    });
+</script>   
+</div> 
+
+
     <canvas id="canvas-display"></canvas>
     <div class="colors" id="colorSel"></div>
     <div class="brushes" id="brushSel"></div>

@@ -11,9 +11,9 @@
   </head>
   
   <header class="menu-esc">
-    <a href="home.html"><h1> ICEBREAKERSDON'TSUCK.</h1></a>
-    <h2> THE ESCAPE GAME.</h2>
-    <a href="home.html"><img src="img/logo.png" alt="logo"></a>
+    <a href="../home.html"><h1> ICEBREAKERSDON'TSUCK.</h1></a>
+    <h2> THE ESCAPE ROOM.</h2>
+    <a href="../home.html"><img src="img/logo.png" alt="logo"></a>
   </header>
   
  <body class="player3startcontext">
@@ -22,7 +22,7 @@
         <p>Hint for Giggle Chicken: Who is this fine lad?</p>
         <div class="hintbtn4">
           <button id="hint button4" onclick="myFunction()">Hint</button>
-          <p id="hint4"></p>
+          <p style="font-size: 20px" id="hint4"></p>
           <script>
           function myFunction() {
             document.getElementById("hint4").innerHTML = "What is he known for?";
@@ -32,7 +32,7 @@
             <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
             <button id="button1" onclick="rightanswer()">Check</button> 
             <div id="break"></div>
-            <h2 id="message1"></h2>
+            <p style="font-size: 10px"id="message1"></p>
             
             <div class="task4images">            
               <img src="img/einstein1.jpg" alt="old eistein">
@@ -48,7 +48,7 @@
               location.href = "task5.html";
             }
             else {
-              document.getElementById("message1").innerHTML = "Try again!";
+              document.getElementById("message1").innerHTML = "Try again! Special Hint: use online converter.";
             }
             } 
           </script> 
