@@ -328,3 +328,11 @@ footer {
   text-align: center;
   font-size: 25px;
 }
+
+
+.toast img{
+  height: 600px;
+  width: 100%;
+  align:center;
+  margin-top: 20px;
+}
