@@ -11,8 +11,10 @@
   </head>
 
   <header class="menu-home">
-    <a href="home.html"><h1> ICEBREAKERSDON'TSUCK.</h1>
-      <img src="img/logo.png" alt="logo"></a>
+    <h1> ICEBREAKERSDON'TSUCK.</h1>
+        <img src="img/logo.png" alt="logo">
+      </a>
+      <div id="escape"><h1>ESCAPE ROOM</h1></div>
   </header>
 
   <body class="player2startcontext">
@@ -36,13 +38,13 @@
   <script> 
     function rightanswer() {
     var answer1 = inputanswer.value;
-    if (answer1 == "IMAGINE" || answer1 == "imagine" || answer1 == "Imagine) {
+    if (answer1 == "IMAGINE" || answer1 == "imagine" || answer1 == "Imagine") {
       location.href = "../tasksuccess.html";
     }
     else {
       document.getElementById("message1").innerHTML = "Try again!";
     }
-    } 
+}
   </script> 
 
     <footer>
