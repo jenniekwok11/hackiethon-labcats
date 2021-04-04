@@ -381,3 +381,15 @@ footer {
 #randomise {
   padding-right: 130px;
 }
+
+.casualgames button {
+  width: 200px;
+  height: 200px;
+  margin-left: 95px;
+  margin-right: 10px;
+  margin-top: px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
