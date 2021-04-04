@@ -4,10 +4,9 @@ html{
 }
 
 footer {
-  position: relative;
+  position: fixed;
   bottom: 0px;
   right: 0px;
-  scroll-margin-top: 60%;
 }
 
 .player1startcontext {
