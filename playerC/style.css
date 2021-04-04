@@ -88,7 +88,48 @@ font-size:20px;
 text-align:center;
 }
 
+<<<<<<< HEAD
+
+#whitebox1 { 
+  background-color: white;
+  border-radius: 10px; 
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  height: 100%;
+  padding: 20px; 
+  text-align: center; 
+
+
+}
+
+#clue3 {
+  border-radius: 10px; 
+  width: 100%; 
+  height:auto; 
+}
+
+#centering {
+  text-align: center; 
+}
+
+#message1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#break {
+  height: 20px
+}
+
+footer {
+  position:fixed; 
+  bottom: 0%;
+  left:0%; 
+  text-align: right; 
+  height: 50px; 
+=======
 .player3startcontext{
   background-color: #5d6c9b ;
   text-align: center;
+>>>>>>> f246f3261f23929d60fccfe078220179cffa5ba5
 }
