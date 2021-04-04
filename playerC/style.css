@@ -215,3 +215,9 @@ footer {
   top: 250px;
   right: 100px; 
 }
+
+.task4images img{
+  width: 45%;
+  height: 500px;
+  margin-left: 10px;
+}
