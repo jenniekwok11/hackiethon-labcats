@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Casual Gamers</title>
+    <title>Idiot Chicken - Task 2</title>
     <link rel ="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
@@ -18,11 +18,12 @@
   
  <body class="player4startcontext">
   <div id="esc-wel-text"> 
-    <p>Idiot Chicken:</p>
-    <p> List out Bin Chicken's current Favourite tv shows/movies</p>
-    <div class="timer">Time Left:<span id="timer"></span> </div>
+    <h2>Passing the ball</h2>
+    <h3 style="font-size:20px">Prompts to get to know each other! Submit all at once!</h3>
+    <h5>Idiot chicken, list out Bin Chicken's current favourite tv shows/movies</h5>
+    <button onclick="countDown()">Start</button>
+    <div style="font-size:15px" id="status"></div>
     <input id="desc" type="text">
-    <br>
     <a href="task3.html"><input id="csubmitbutton" type="submit" value="Submit"> </a>
     
     </div>
@@ -33,6 +34,19 @@
 
 
 <script>
+  function countDown() {
+    var secs = 60;
+    var element = document.getElementById('status');
+    
+    setInterval(function(){
+      element.innerHTML = "Time Left "+secs.toFixed(1)+" seconds";
+      if(secs < 1) {
+          element.innerHTML = '<h2>You have no time left!</h2>';
+      }  
+      secs--;
+    }, 1000)  
+
+}
   document.getElementById('timer').innerHTML =
   001 + ":" + 00;
 startTimer();

@@ -17,12 +17,14 @@
   </header>
   
  <body class="player2startcontext">
+ 
   <div id="esc-wel-text"> 
-    <p>Swoopy Chicken:</p>
-    <p> Describe Giggle Chicken's ideal breakfast in bed.</p>
-    <div class="timer">Time Left:<span id="timer"></span> </div>
+    <h2>Passing the ball</h2>
+    <h3>Prompts to get to know each other! Submit all at once.</h3>
+    <h5>Swoopy Chicken, ask Giggle Chicken to describe their ideal breakfast in bed.</h5>
+    <button onclick="countDown()">Start</button>
+    <div style="font-size:15px" id="status"></div>
     <input id="desc" type="text">
-    <br>
     <a href="task3.html"><input id="csubmitbutton" type="submit" value="Submit"> </a>
     
     </div>
@@ -37,6 +39,20 @@
 
 
 <script>
+
+function countDown() {
+    var secs = 60;
+    var element = document.getElementById('status');
+    
+    setInterval(function(){
+      element.innerHTML = "Time Left "+secs.toFixed(1)+" seconds";
+      if(secs < 1) {
+          element.innerHTML = '<h2>You have no time left!</h2>';
+      }  
+      secs--;
+    }, 1000)  
+
+}
   document.getElementById('timer').innerHTML =
   001 + ":" + 00;
 startTimer();
