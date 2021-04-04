@@ -20,7 +20,14 @@
     <div id="esc-wel-text"> 
       <p>For this task, work together to solve the password</p> 
         <p>Hint for Swoopy Chicken: What is the speed of light?</p>
-        <p> look at conversions carefully</p>
+        <div class="hintbtn4">
+          <button id="hint button4" onclick="myFunction()">Hint</button>
+          <p id="hint4"></p>
+          <script>
+          function myFunction() {
+            document.getElementById("hint4").innerHTML = "Input";
+          }
+      </script>
         <div id=centering>
             <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
             <button id="button1" onclick="rightanswer()">Check</button> 

@@ -17,10 +17,18 @@
   </header>
   
  <body class="player1startcontext">
-    <div id="esc-wel-text"> 
+    <div id="esc-task4"> 
       <p>For this task, work together to solve the password</p> 
-        <p>Hint for Bin Chicken:What is the Speed of Light?</p>
-        <p>Hint: look at conversions carefully</p>
+        <p>Hint for Bin Chicken: Mass = (3 + (5-2)) mg</p>
+        <div class="hintbtn4">
+          <button id="hint button4" onclick="myFunction()">Hint</button>
+          <p id="hint4"></p>
+          <script>
+          function myFunction() {
+            document.getElementById("hint4").innerHTML = "Look at conversions carefully";
+          }
+      </script>
+      </div>
         <div id=centering>
             <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
             <button id="button1" onclick="rightanswer()">Check</button> 

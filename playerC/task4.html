@@ -19,8 +19,15 @@
  <body class="player3startcontext">
     <div id="esc-wel-text"> 
       <p>For this task, work together to solve the password</p> 
-        <p>Hint for Giggle Chicken:Who is this fine lad?</p>
-        <p>When you work out the answer, type in the password</p>
+        <p>Hint for Giggle Chicken: Who is this fine lad?</p>
+        <div class="hintbtn4">
+          <button id="hint button4" onclick="myFunction()">Hint</button>
+          <p id="hint4"></p>
+          <script>
+          function myFunction() {
+            document.getElementById("hint4").innerHTML = "What is he known for?";
+          }
+      </script>
         <div id=centering>
             <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
             <button id="button1" onclick="rightanswer()">Check</button> 
