@@ -246,8 +246,63 @@ footer {
   height:auto; 
 }
 
+.task4images img{
+  width: 45%;
+
+}
 #lyrics {
   text-align:center; 
   font-size: 80px; 
 }
 
+#esc-task3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 80%;
+  height: 700px;
+  padding: 20px; 
+  position: static;
+  border: #17c3b2;
+  border-width: 20px;
+  border-style: double;
+}
+
+.task3images {
+  padding-top: 60px;
+}
+
+.task3images img {
+ height:250px;
+
+}
+
+
+#puzzle3clue1 {
+  border-color: #227c9d;
+  border-width: 8px;
+  border-style: solid;
+
+} 
+
+#puzzle3clue2 {
+  border-color: #17c3b2;
+  border-width: 8px;
+  border-style: solid;
+
+
+} 
+#puzzle3clue3 {
+  border-color: #ffcb77;
+  border-width: 8px;
+  border-style: solid;
+
+} 
+
+#puzzle3clue4 {
+  border-color: #fe6d73;
+  border-width: 8px;
+  border-style: solid;
+
+} 
