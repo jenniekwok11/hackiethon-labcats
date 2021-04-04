@@ -257,8 +257,8 @@ footer {
   margin: auto;
   margin-top: 130px;
   width: 50%;
-  height: 700px;
-  padding: 20px; 
+  height: auto;
+  padding: 50px; 
   position: static;
 }
 
