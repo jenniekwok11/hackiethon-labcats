@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Bin Chicken - Task 3</title>
+    <title>Idiot Chicken - Task 3</title>
     <link rel ="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
@@ -16,16 +16,20 @@
     <a href="home.html"><img src="img/logo.png" alt="logo"></a>
   </header>
   
- <body class="player1startcontext">
+ <body class="player4startcontext">
     <div id="esc-task3"> 
         <div id="centering">
-            <div class="task3images">
-            <img id="puzzle3clue1" src="img/Puzzle3AClue1.jpg" alt="cat on grass">
-            <img id="puzzle3clue2-1" src="img/Puzzle3AClue2-1.jpeg" alt="cutout letter A">
-            <img id="puzzle3clue2-2" src="img/Puzzle3AClue2-2.jpeg" alt="cutout letter R">
-            <img id="puzzle3clue3" src="img/Puzzle3AClue3.jpg" alt="croissants">
-            <img id="puzzle3clue4" src="img/Puzzle3AClue4.png" alt="clapperboard">
+          <div class="task3images">
+            <div class="column">
+            <img id="puzzle3clue1" src="img/Puzzle3DClue1.jpg" alt="a woman and man on a picnic">
+            <img id="puzzle3clue2" src="img/Puzzle3DClue2.jpeg" alt="cutout letter w">
             </div>
+            <div class="column">
+            <img id="puzzle3clue3" src="img/Puzzle3DClue3.png" alt="flag of france">
+            <img id="puzzle3clue4" src="img/Puzzle3DClue4.jpg" alt="kitten being held up by its front">
+            </div>
+            </div>
+            <br>
             <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
             <button id="button1" onclick="rightanswer()">Check</button> 
             <div id="break"></div>
@@ -34,7 +38,7 @@
             <script> 
               function rightanswer() {
               var answer1 = inputanswer.value;
-              if (answer1 == "PARK" || answer1 == "park" || answer1 == "Park") {
+              if (answer1 == "THE LION KING" || answer1 == "the lion king" || answer1 == "The Lion King" || answer1 == "The lion king") {
                 location.href = "task4.html";
               }
               else {
@@ -43,14 +47,15 @@
               } 
             </script> 
 <div class="hintbtn">
-    <button id="hint button" onclick="myFunction()">Hint</button>
-    <p id="hint"></p>
-    <script>
-    function myFunction() {
-      document.getElementById("hint").innerHTML = "Check the colour of your border";
-    }
+<button id="hint button" onclick="myFunction()">Hint</button>
+<p id="hint"></p>
+<script>
+function myFunction() {
+  document.getElementById("hint").innerHTML = "Check the colour of your border";
+}
 </script>
 </div>
+
     <footer>
         <p>A Labcat Production</p>
     </footer>

@@ -6,7 +6,6 @@ html{
 footer {
   position: fixed;
   bottom: 0px;
-  width: 200px;
   right: 0px;
 }
 
@@ -230,8 +229,8 @@ footer {
 }
 
 .task4images img{
-  width: 45%;
-  height: 500px;
+  width: 28%;
+  height: 250px;
   margin-left: 10px;
 }
 h3 {
@@ -294,3 +293,16 @@ h3 {
   
 
 } 
+
+.hintbtn {
+  text-align: left;
+  padding-top: 70px;
+}
+
+#hint {
+  position: relative;
+  float: right;
+  margin-right: 72%;
+  padding-bottom: 100px;
+}
+

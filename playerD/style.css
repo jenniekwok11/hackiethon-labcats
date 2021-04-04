@@ -215,3 +215,79 @@ h1 {
 
 
 
+#esc-task3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 80%;
+  height: 700px;
+  padding: 20px; 
+  position: static;
+  border: #fe6d73;
+  border-width: 20px;
+  border-style: double;
+}
+
+.task3images {
+  padding-top: 50px;
+}
+
+.task3images img {
+ height:250px;
+}
+
+
+#puzzle3clue1 {
+  border-color: #227c9d;
+  border-width: 8px;
+  border-style: solid;
+
+} 
+
+#puzzle3clue2 {
+  border-color: #17c3b2;
+  border-width: 8px;
+  border-style: solid;
+
+
+} 
+#puzzle3clue3 {
+  border-color: #ffcb77;
+  border-width: 8px;
+  border-style: solid;
+
+} 
+
+#puzzle3clue4 {
+  border-color: #fe6d73;
+  border-width: 8px;
+  border-style: solid;
+  width: 200px;
+  text-align: center;
+} 
+
+.hintbtn {
+  text-align: left;
+  margin-bottom: 20%;
+}
+
+#hint {
+  position: relative;
+  float: right;
+  margin-right: 72%;
+  padding-bottom: 100px;
+}
+
+#esc-task4 {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 50%;
+  height: 400px;
+  padding: 20px; 
+  position: static;
+  font-weight: bold;
+  font-size: 30px;
+}

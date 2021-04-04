@@ -4,17 +4,11 @@ html{
 }
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0px;
-  width: 200px;
   right: 0px;
-  
+  scroll-margin-top: 60%;
 }
-
-footer, .push {
-  border: 0px solid;
-  height: 0px; /* '.push' must be the same height as 'footer' */
-  }
 
 .player1startcontext {
   background-color: #5d6c9b; 
@@ -282,4 +276,31 @@ text-align:center;
   position: absolute; 
   left: 0; 
   top: 0; 
+}
+
+
+.hintbtn {
+  text-align: left;
+  margin-bottom: 20%;
+}
+
+#hint {
+  position: relative;
+  float: right;
+  margin-right: 72%;
+  padding-bottom: 100px;
+}
+
+
+#esc-task4 {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 50%;
+  height: 500px;
+  padding: 20px; 
+  position: static;
+  font-weight: bold;
+  font-size: 30px;
 }
