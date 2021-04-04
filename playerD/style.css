@@ -291,3 +291,8 @@ h1 {
   font-weight: bold;
   font-size: 30px;
 }
+
+#starttimer {
+  padding: 10px;
+  margin-bottom: 30px;
+}
