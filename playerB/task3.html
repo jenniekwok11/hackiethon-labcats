@@ -16,15 +16,14 @@
     <a href="home.html"><img src="img/logo.png" alt="logo"></a>
   </header>
   
- <body class="player1startcontext">
+ <body class="player2startcontext">
     <div id="esc-task3"> 
         <div id="centering">
             <div class="task3images">
-            <img id="puzzle3clue1" src="img/Puzzle3BClue1.jpg" alt="cat on grass">
-            <img id="puzzle3clue2-1" src="img/Puzzle3BClue2-1.jpeg" alt="cutout letter A">
-            <img id="puzzle3clue2-2" src="img/Puzzle3ABClue2-2.jpeg" alt="cutout letter R">
-            <img id="puzzle3clue3" src="img/Puzzle3Blue3.jpg" alt="croissants">
-            <img id="puzzle3clue4" src="img/Puzzle3BClue4.png" alt="clapperboard">
+            <img id="puzzle3clue1" src="img/Puzzle3BClue1.jpg" alt="treasure map with x">
+            <img id="puzzle3clue2" src="img/Puzzle3BClue2.jpeg" alt="cat in a party hat">
+            <img id="puzzle3clue3" src="img/Puzzle3BClue3.jpg" alt="Starbucks logo">
+            <img id="puzzle3clue4" src="img/Puzzle3BClue4.png" alt="it means no worries...">
             </div>
             <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
             <button id="button1" onclick="rightanswer()">Check</button> 
@@ -34,7 +33,7 @@
             <script> 
               function rightanswer() {
               var answer1 = inputanswer.value;
-              if (answer1 == "PARK" || answer1 == "park" || answer1 == "Park") {
+              if (answer1 == "HAT" || answer1 == "hat" || answer1 == "Hat") {
                 location.href = "task4.html";
               }
               else {
@@ -47,7 +46,7 @@
 <p id="hint"></p>
 <script>
 function myFunction() {
-  document.getElementById("hint").innerHTML = "Check the colour of your borders";
+  document.getElementById("hint").innerHTML = "Check the colour of your border";
 }
 </script>
 
