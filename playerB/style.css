@@ -247,8 +247,8 @@ footer {
 }
 
 .task4images img{
-  width: 40%;
-
+  width: 30%;
+  position: relative;
 }
 #lyrics {
   text-align:center; 
