@@ -3,18 +3,18 @@ html{
   
 }
 
-footer {
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
-}
-
 .withoutnav {
   height: 40px;
   width: 100%;
   overflow: auto;
   background-color: #5d6c9b;
   border-radius: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
 
 .menu-esc img{
@@ -146,12 +146,6 @@ footer {
       }
     
     
-    footer {
-      position: absolute;
-      bottom: 0px;
-      right: 0px;
-    }
-    
 
 .timer {
 font-size:20px;
@@ -189,14 +183,7 @@ text-align:center;
   height: 20px
 }
 
-footer {
-  float:right; 
-  position:fixed; 
-  bottom: 0%;
-  left:0%; 
-  text-align: right; 
-  height: 50px; 
-}
+
 .player3startcontext{
   background-color: #5d6c9b ;
   text-align: center;

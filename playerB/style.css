@@ -102,13 +102,8 @@ html{
     padding-left: 10px;
 
   }
-  footer {
-    position: fixed;
-    bottom: 0px;
-    width: 200px;
-    right: 0px;
-    }
 
+  
 
     #esc-wel-text {
       background-color: rgba(255, 255, 255, 0.6);
@@ -144,11 +139,11 @@ html{
     
     }
 
-footer {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
+    footer {
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+    }
 
       .player2startcontext{
         background-color: #5d6c9b ;
@@ -241,12 +236,6 @@ body {
   height: 20px
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  text-align: right; 
-}
 
 #clue2 {
   border-radius: 10px; 
