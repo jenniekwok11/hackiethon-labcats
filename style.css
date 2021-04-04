@@ -256,6 +256,21 @@ footer {
   padding: 20px; 
   position: static;
 }
+
+
+#esc-task3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 50%;
+  height: 700px;
+  padding: 20px; 
+  position: static;
+}
+
+
+
 .esc-wel-buttons {
  display: flex;
  justify-content: center;
