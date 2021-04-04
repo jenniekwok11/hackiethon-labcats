@@ -404,19 +404,17 @@ audio{
   text-align: center;
 }
 
-div.item{
-
-  vertical-align: top;
-    display: inline-block;
-    text-align: center;
+.dp{
+  margin: 10px;
 }
 .dp img{
   width: 300px;
   height: 300px;
   border-radius: 250px;
-  margin:25px;
+  margin:55px;
   margin-bottom: 0;
-  padding: 40px;
+  padding:20px;
+
 }
 
 
