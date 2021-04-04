@@ -17,12 +17,31 @@
   </header>
   
  <body class="player1startcontext">
-    <div id="esc-wel-text"> 
-        <p>hello</p>
-        <a href="task3.html"><input id="csubmitbutton" type="submit" value="Submit"> </a>
-        
-        </div>
-
+    <div id="esc-task3"> 
+        <div id="centering">
+            <div class="task3images">
+            <img src="/playerA/img/Puzzle3AClue1.jpg" alt="cat on grass">
+            <img src="/playerA/img/Puzzle3AClue2-1.jpeg" alt="cutout letter A">
+            <img src="/playerA/img/Puzzle3AClue2-2.jpeg" alt="cutout letter R">
+            <img src="/playerA/img/Puzzle3AClue3.jpg" alt="croissants">
+            <img src="/playerA/img/Puzzle3AClue4.png" alt="clapperboard">
+            </div>
+            <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
+            <button id="button1" onclick="rightanswer()">Check</button> 
+            <div id="break"></div>
+            <h2 id="message1"></h2>
+            </div>
+            <script> 
+              function rightanswer() {
+              var answer1 = inputanswer.value;
+              if (answer1 == "DIVERSITY" || answer1 == "diversity" || answer1 == "Diversity") {
+                location.href = "task2.html";
+              }
+              else {
+                document.getElementById("message1").innerHTML = "Try again!";
+              }
+              } 
+            </script> 
     <footer>
         <p>A Labcat Production</p>
     </footer>
