@@ -361,6 +361,12 @@ footer {
   padding-right: 130px;
 }
 
+.toast img{
+  width: 100%;
+}
+audio{
+  width: 100%;
+}
 
 .casualgames button {
   width: 200px;
