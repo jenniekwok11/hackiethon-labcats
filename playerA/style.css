@@ -9,70 +9,6 @@ bottom: 0px;
 right: 0px;
 }
 
-.player1startcontext {
-background-color: #5d6c9b; 
-; 
-}
-
-
-.menu-home a:active{
-color: black;
-}
-
-.topnav {
-  height: 70px;
-  width: 100%;
-  overflow: auto;
-  background-color: whitesmoke;
-  border-radius: 10px;
-}
-
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  font-size: 25px;
-  width: 25%;
-  padding-top: 15px;
-  padding-bottom: 30px;
-  padding-right: 0%;
-  padding-left: 0%;
-  font-weight: bold;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.homecontext h1{
-    text-align: center;
-}
-
-.menu-home img{
-  float: right;
-  padding-top: 15px;
-  padding-right: 10px;
-  width: 50px;
-  height: 50px;
-
-}
-
-
-.menu-home h1{
-  float: right;
-  font-family: 'Recursive', sans-serif;
-  font-size: 40px;
-  color: black;
-
-}
-
 .menu-esc img{
   position: fixed;
       right:480px;
@@ -112,57 +48,42 @@ color: black;
       background-color: #5d6c9b ;
       text-align: center;
     }
-    footer {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-      }
 
-      .player1startcontext{
-        background-color: #5d6c9b ;
-      }
+    #esc-wel-text {
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 30px; 
+      margin: auto;
+      margin-top: 130px;
+      width: 50%;
+      height: 700px;
+      padding: 20px; 
+      position: static;
+      font-weight: bold;
+      font-size: 30px;
+    }
 
-  
+    #desc{
+      width: 500px;
+      height: 270px;
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
 
+    #csubmitbutton {
+      float: right;
+      margin-top: 12%;
+      padding: 15px;
+      margin-right:1%;
+      border-radius: 10px;
+      border-style: hidden;
+      font-size: 25px;
+      font-family: 'Recursive' sans-serif;
+    
+    
+    }
 
-#whitebox1 { 
-  background-color: white;
-  border-radius: 10px; 
-  margin: auto;
-  margin-top: 20px;
-  width: 80%;
-  height: 100%;
-  padding: 20px; 
-
-
-}
-
-#whitebox2 { 
-  background-color: white;
-  border-radius: 10px; 
-  margin-left: auto;
-  margin-right:auto; 
-  margin-top: 20px;
-  width: 80%;
-  height: 20px; 
-  padding: 20px; 
-
-
-}
-
-#clue1 {
-  height: auto; 
-  width: 100%; 
-}
-
-#centering {
-  text-align: center; 
-}
-
-#message1 {
-  font-family: 'Courier New', Courier, monospace;
-}
-
-#break {
-  height: 20px
+.timer {
+font-size:20px;
+text-align:center;
 }

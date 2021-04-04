@@ -19,11 +19,14 @@
  <body class="player2startcontext">
   <div id="esc-wel-text"> 
     <div style="text-align:center" id="cselectplaytext">
-    <p>PLAYER B:</p>
-    <p> Describe your ideal breakfast in bed.</p>
+    <p>PLAYER A:</p>
+    <p> What is your favourite fruit and why?.</p>
+    <div class="timer">Time Left:<span id="timer"></span> </div>
     <input id="desc" type="text">
-</div>
+    <br>
     <a href="task3.html"><input id="csubmitbutton" type="submit" value="Submit"> </a>
+</div>
+    
     </div>
     
       
@@ -35,5 +38,29 @@
 </body>
 
 
+<script>
+  document.getElementById('timer').innerHTML =
+  001 + ":" + 00;
+startTimer();
 
+function startTimer() {
+  var presTime = document.getElementById('timer').innerHTML;
+  var timeArray = presTime.split(/[:]+/);
+  var m = timeArray[0];
+  var s = checkSecond((timeArray[1] - 1));
+  if(s==59){m=m-1}
+
+  
+  document.getElementById('timer').innerHTML =
+    m + ":" + s;
+  console.log(m)
+  setTimeout(startTimer, 1000);
+}
+
+function checkSecond(sec) {
+  if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+  if (sec < 0) {sec = "59"};
+  return sec;
+}
+</script>
 </html>

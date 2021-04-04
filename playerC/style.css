@@ -64,7 +64,7 @@ right: 0px;
 
     #desc{
       width: 500px;
-      height: 300px;
+      height: 270px;
       padding: 20px;
       font-size: 30px;
       text-align: center;
@@ -83,3 +83,7 @@ right: 0px;
     
     }
 
+.timer {
+font-size:20px;
+text-align:center;
+}
