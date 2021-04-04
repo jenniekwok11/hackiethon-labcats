@@ -297,7 +297,6 @@ footer {
   border-color: #ffcb77;
   border-width: 8px;
   border-style: solid;
-
 } 
 
 #puzzle3clue4 {
@@ -307,6 +306,16 @@ footer {
   width: 200px;
   text-align: center;
   margin-left: 450px;
-  
-
 } 
+
+.hintbtn {
+  text-align: left;
+  padding-top: 70px;
+}
+
+#hint {
+  position: relative;
+  float: right;
+  margin-right: 72%;
+  padding-bottom: 100px;
+}
