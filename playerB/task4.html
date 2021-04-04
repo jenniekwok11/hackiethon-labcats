@@ -16,21 +16,27 @@
     <a href="home.html"><img src="img/logo.png" alt="logo"></a>
   </header>
   
- <body class="player1startcontext">
+ <body class="player2startcontext">
     <div id="esc-wel-text"> 
-        <p>What is the Speed of Light?</p>
+        <p>What is the speed of light?</p>
+        <p>Hint: Rounded up</p>
         <div id=centering>
             <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
             <button id="button1" onclick="rightanswer()">Check</button> 
             <div id="break"></div>
             <h2 id="message1"></h2>
             </div>
-        
+            <div class="task4images">            
+              <img src="img/Puzzle 4 B.jpeg" alt="flash">
+              <img src="img/Puzzle 4 B.png" alt="lightbulb">
+            </div>
+
         </div>
+
         <script> 
             function rightanswer() {
             var answer1 = inputanswer.value;
-            if (answer1 == "392"|| answer1=="3.92") {
+            if (answer1 == "300,000"|| answer1=="3*10^8") {
               location.href = "task5.html";
             }
             else {
