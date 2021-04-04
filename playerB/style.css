@@ -270,7 +270,7 @@ footer {
 }
 
 .task3images {
-  padding-top: 60px;
+  padding-top: 150px;
 }
 
 .task3images img {
@@ -304,5 +304,9 @@ footer {
   border-color: #fe6d73;
   border-width: 8px;
   border-style: solid;
+  width: 200px;
+  text-align: center;
+  margin-left: 450px;
+  
 
 } 
