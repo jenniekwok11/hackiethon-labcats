@@ -9,6 +9,13 @@ html{
   text-align:center; 
   }
   
+  .withoutnav {
+    height: 40px;
+    width: 100%;
+    overflow: auto;
+    background-color: #5d6c9b;
+    border-radius: 10px;
+  }
   
   .menu-home a:active{
   color: black;
@@ -143,9 +150,13 @@ font-size:20px;
 text-align:center;
 }
 
+#escape {
+  float:left; 
+}
+
 
 #whitebox1 { 
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px; 
   margin: auto;
   margin-top: 20px;
@@ -154,7 +165,6 @@ text-align:center;
   padding: 20px; 
   text-align: center; 
   float: center; 
-
 
 }
 
