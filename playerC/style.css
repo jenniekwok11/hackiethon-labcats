@@ -38,12 +38,7 @@ right: 0px;
     padding-left: 10px;
 
   }
-  footer {
-      position: absolute;
-      bottom: 0px;
-      right: 0px;
-    }
-
+ 
     .player3startcontext{
       background-color: #5d6c9b ;
       text-align: center;
@@ -82,6 +77,73 @@ right: 0px;
     
     
     }
+      
+      
+      .menu-home a:active{
+      color: black;
+      }
+      
+      .topnav {
+        height: 70px;
+        width: 100%;
+        overflow: auto;
+        background-color: whitesmoke;
+        border-radius: 10px;
+      }
+      
+      .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-right: 0%;
+        padding-left: 0%;
+        font-weight: bold;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .homecontext h1{
+          text-align: center;
+      }
+      
+      .menu-home img{
+        float: right;
+        padding-top: 15px;
+        padding-right: 10px;
+        width: 50px;
+        height: 50px;
+      
+      }
+      
+      
+      .menu-home h1{
+        float: right;
+        font-family: 'Recursive', sans-serif;
+        font-size: 40px;
+        color: black;
+      
+      }
+    
+    
+    footer {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+    
 
 .timer {
 font-size:20px;
@@ -127,7 +189,7 @@ footer {
   text-align: right; 
   height: 50px; 
 }
-  .player3startcontext{
+.player3startcontext{
   background-color: #5d6c9b ;
   text-align: center;
 }

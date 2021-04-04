@@ -142,41 +142,6 @@ footer {
   right: 0px;
 }
 
-.menu-esc img{
-    position: fixed;
-        right:480px;
-        top:10px;
-    padding-top: 15px;
-    padding-right: 10px;
-    width: 50px;
-    height: 50px;
-
-  }
-
-    .menu-esc h1{
-      position: fixed;
-        right:0;
-        top:10px;
-      font-family: 'Recursive', sans-serif;
-      font-size: 40px;
-      color: black;
-  
-    }
-    .menu-esc h2{
-      position: fixed;
-        left:0;
-        top:10px;
-      font-family: 'Recursive', sans-serif;
-      font-size: 40px;
-      padding-left: 10px;
-  
-    }
-    footer {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-      }
-
       .player2startcontext{
         background-color: #5d6c9b ;
         text-align: center;
