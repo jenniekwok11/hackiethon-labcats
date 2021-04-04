@@ -35,11 +35,14 @@
           </div>
           <script type="text/javascript" charset="utf-8">
               var randomStrings = [
-                  "Favourite movie",
+                  "Favourite book or movie",
                   "Favourite fruit",
-                  "I'm out of ideas ", 
-                  "hello 4",
-                  "hello 5",
+                  "Favourite colour", 
+                  "Favourite season",
+                  "Hobbies",
+                  "Person you'd choose to be stranded on a desert island with",
+                  "Most hated food",
+                  "Most used emoji",
               ];
               var randomDiv = document.getElementById("prompt");
           
@@ -51,19 +54,10 @@
           </script>   
           </div> 
           <div class="timer2">Time Left:<span id="timer2"></span> </div>
-
-
       </div>
-
-
-
-
-    <footer>
-        <p>A Labcat Production</p>
-    </footer>
     <script>
         document.getElementById('timer2').innerHTML =
-        003 + ":" + 00;
+        001 + ":" + 00;
       startTimer();
       
       function startTimer() {
@@ -73,7 +67,7 @@
         var s = checkSecond((timeArray[1] - 1));
         if(s==59){m=m-1}
         if(m<0) {
-          document.getElementById("time").innerHTML = "Times Up!";
+          document.getElementById("time").innerHTML = "Next Person!";
         }
       
         
@@ -87,9 +81,10 @@
         if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
         if (sec < 0) {sec = "59"};
         return sec;
-      
-        
       }
       </script>
+        <footer>
+          <p>A Labcat Production</p>
+      </footer>
   </body>
   </html>
