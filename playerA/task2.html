@@ -14,12 +14,15 @@
     <a href="home.html"><h1> ICEBREAKERSDON'TSUCK.</h1></a>
     <h2> THE ESCAPE ROOM.</h2>
     <a href="home.html"><img src="img/logo.png" alt="logo"></a>
+
+
   </header>
   
  <body class="player1startcontext">
+
   <div id="esc-wel-text"> 
     <p>Bin Chicken:</p>
-    <p> What is "I will f*** you up" Chicken's favourite fruit and why?.</p>
+    <p> What is Idiot Chicken's favourite fruit and why?.</p>
     <div class="timer">Time Left:<span id="timer"></span> </div>
     <input id="desc" type="text">
     <br>
@@ -47,6 +50,9 @@ function startTimer() {
   var m = timeArray[0];
   var s = checkSecond((timeArray[1] - 1));
   if(s==59){m=m-1}
+  if(m<0) {
+    document.getElementById("time").innerHTML = "Times Up!";
+  }
 
   
   document.getElementById('timer').innerHTML =
@@ -59,6 +65,8 @@ function checkSecond(sec) {
   if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
   if (sec < 0) {sec = "59"};
   return sec;
+
+  
 }
 </script>
 </html>
