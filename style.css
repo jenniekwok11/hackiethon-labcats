@@ -352,7 +352,7 @@ footer {
 .thechoice button{
   width: 200px;
   height: 200px;
-  margin-left: 95px;
+  margin-left: 105px;
   margin-right: 10px;
   margin-top: 10px;
   border-radius: 10px;
@@ -402,4 +402,8 @@ audio{
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+}
+
+.thechoice {
+
 }
