@@ -417,11 +417,6 @@ div.item{
   margin:45px;
 }
 
-.dp h3,p{
-  width: auto;
-  text-align: left;
-  display: block;
-}
 
 .team{
   display: flex;
