@@ -216,8 +216,8 @@ footer {
 }
 
 .task4images img{
-  
-  height: 350px;
+  width: 28%;
+  height: 250px;
   margin-left: 10px;
 }
 h3 {
@@ -292,3 +292,4 @@ h3 {
   margin-right: 72%;
   padding-bottom: 100px;
 }
+

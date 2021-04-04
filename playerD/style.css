@@ -268,3 +268,16 @@ h1 {
   margin-right: 72%;
   padding-bottom: 100px;
 }
+
+#esc-task4 {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px; 
+  margin: auto;
+  margin-top: 130px;
+  width: 50%;
+  height: 400px;
+  padding: 20px; 
+  position: static;
+  font-weight: bold;
+  font-size: 30px;
+}
