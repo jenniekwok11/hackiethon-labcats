@@ -9,6 +9,14 @@ footer {
   right: 0px;
 }
 
+.withoutnav {
+  height: 40px;
+  width: 100%;
+  overflow: auto;
+  background-color: #5d6c9b;
+  border-radius: 10px;
+}
+
 .menu-esc img{
   position: fixed;
       right:480px;
@@ -152,7 +160,7 @@ text-align:center;
 
 
 #whitebox1 { 
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px; 
   margin: auto;
   margin-top: 20px;
@@ -162,6 +170,10 @@ text-align:center;
   float: center;
 
 
+}
+
+#escape {
+  float: left; 
 }
 
 
@@ -178,6 +190,7 @@ text-align:center;
 }
 
 footer {
+  float:right; 
   position:fixed; 
   bottom: 0%;
   left:0%; 

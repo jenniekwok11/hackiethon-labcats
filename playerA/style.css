@@ -26,6 +26,14 @@ footer {
     background-color: whitesmoke;
     border-radius: 10px;
   }
+
+  .withoutnav {
+    height: 70px;
+    width: 100%;
+    overflow: auto;
+    background-color: #5d6c9b;
+    border-radius: 10px;
+  }
   
   .topnav a {
     float: left;
@@ -160,8 +168,8 @@ text-align:center;
 }
 
 
-#whitebox1 { 
-  background-color: white;
+.whitebox1 { 
+  background-color: rgba(255, 255, 255, 0.6); 
   border-radius: 10px; 
   margin: auto;
   margin-top: 20px;
