@@ -35,7 +35,7 @@ right: 0px;
     font-size: 25px;
     width: 25%;
     padding-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 17px;
     padding-right: 0%;
     padding-left: 0%;
     font-weight: bold;
@@ -161,18 +161,6 @@ text-align:center;
 
 }
 
-#whitebox2 { 
-  background-color: white;
-  border-radius: 10px; 
-  margin-left: auto;
-  margin-right:auto; 
-  margin-top: 20px;
-  width: 80%;
-  height: 20px; 
-  padding: 20px; 
-
-
-}
 
 #clue1 {
   height: auto; 
