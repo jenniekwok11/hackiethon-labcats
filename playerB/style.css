@@ -337,3 +337,8 @@ footer {
 h3 {
   font-size: 15px; 
 }
+
+#starttimer {
+  padding: 10px;
+  margin-bottom: 30px;
+}
