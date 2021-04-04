@@ -1,50 +1,89 @@
 html{
-    font-family: 'Kiwi Maru', serif;
-    
+  font-family: 'Kiwi Maru', serif;
+  
 }
 
 footer {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+position: absolute;
+bottom: 0px;
+right: 0px;
 }
 
 .menu-esc img{
+  position: fixed;
+      right:480px;
+      top:10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+
+}
+
+  .menu-esc h1{
     position: fixed;
-        right:480px;
-        top:10px;
-    padding-top: 15px;
-    padding-right: 10px;
-    width: 50px;
-    height: 50px;
+      right:0;
+      top:10px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 40px;
+    color: black;
 
   }
+  .menu-esc h2{
+    position: fixed;
+      left:0;
+      top:10px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
 
-    .menu-esc h1{
-      position: fixed;
-        right:0;
-        top:10px;
-      font-family: 'Recursive', sans-serif;
-      font-size: 40px;
-      color: black;
-  
+  }
+  footer {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
     }
-    .menu-esc h2{
-      position: fixed;
-        left:0;
-        top:10px;
-      font-family: 'Recursive', sans-serif;
-      font-size: 40px;
-      padding-left: 10px;
-  
-    }
-    footer {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-      }
 
-.player4startcontext{
-  background-color: #5d6c9b ;
+    .player2startcontext{
+      background-color: #5d6c9b ;
+      text-align: center;
+    }
+
+    #esc-wel-text {
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 30px; 
+      margin: auto;
+      margin-top: 130px;
+      width: 50%;
+      height: 700px;
+      padding: 20px; 
+      position: static;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    #desc{
+      width: 500px;
+      height: 270px;
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    #csubmitbutton {
+      float: right;
+      margin-top: 12%;
+      padding: 15px;
+      margin-right:1%;
+      border-radius: 10px;
+      border-style: hidden;
+      font-size: 25px;
+      font-family: 'Recursive' sans-serif;
+    
+    
+    }
+
+.timer {
+font-size:20px;
+text-align:center;
 }
-  

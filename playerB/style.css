@@ -46,4 +46,44 @@ footer {
 
       .player2startcontext{
         background-color: #5d6c9b ;
+        text-align: center;
       }
+
+      #esc-wel-text {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 30px; 
+        margin: auto;
+        margin-top: 130px;
+        width: 50%;
+        height: 700px;
+        padding: 20px; 
+        position: static;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      #desc{
+        width: 500px;
+        height: 270px;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      #csubmitbutton {
+        float: right;
+        margin-top: 12%;
+        padding: 15px;
+        margin-right:1%;
+        border-radius: 10px;
+        border-style: hidden;
+        font-size: 25px;
+        font-family: 'Recursive' sans-serif;
+      
+      
+      }
+
+.timer {
+  font-size:20px;
+  text-align:center;
+}
