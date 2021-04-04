@@ -381,3 +381,7 @@ footer {
 #randomise {
   padding-right: 130px;
 }
+
+audio{
+  width: 100%;
+}
