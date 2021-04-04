@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>Casual Gamers</title>
+    <title>LabCats - About us!</title>
     <link rel ="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
   </head>
-  
-  <header class="menu-esc">
-    <a href="home.html"><h1> ICEBREAKERSDON'TSUCK.</h1></a>
-    <h2> THE ESCAPE ROOM.</h2>
-    <a href="home.html"><img src="img/logo.png" alt="logo"></a>
+
+  <header class="menu-home">
+    <a href="home.html"><h1> ICEBREAKERSDON'TSUCK.</h1>
+      <img src="img/logo.png" alt="logo"></a>
   </header>
   
  <body class="player2startcontext">
   <div id="esc-wel-text"> 
     <div style="text-align:center" id="cselectplaytext"></div>
 
-    </div>
+  <body class="player2startcontext">
+    <div class="topnav">
+      <a href="../aboutus.html">About Us</a>
+      <a href="../casual.html">Casual</a>
+      <a href="#professional.html">Professional</a>
+        <a href="#faq.html">FAQ</a>
       </div>
-    </div>
+    
+     <div id="whitebox1"> 
+       <img id="clue2" src="img/6th-2.png" alt="fail to load">
     </div> 
+  
+  <div id=centering>
+  <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
+  <button id="button1" onclick="rightanswer()">Check</button> 
+  <div id="break"></div>
+  <h2 id="message1"></h2>
+  </div>
+  <script> 
+    function rightanswer() {
+    var answer1 = inputanswer.value;
+    if (answer1 == "DIVERSITY" || answer1 == "diversity") {
+      location.href = "playerB2.html";
+    }
+    else {
+      document.getElementById("message1").innerHTML = "Try again!";
+    }
+    } 
+  </script> 
 
     <footer>
       <p>A Labcat Production</p>
-  </footer>
-</body>
-
-
-
+    </footer>
+  </body>
 </html>
