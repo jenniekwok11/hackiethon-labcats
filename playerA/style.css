@@ -200,10 +200,6 @@ text-align:center;
   background-color: #5d6c9b ;
   text-align: center;
 }
-.task5context{
-  background-color: #5d6c9b ;
-  text-align: center;
-}
 
 
 #esc-task3 {
@@ -216,7 +212,7 @@ text-align:center;
   padding: 20px; 
   position: static;
   border: #227c9d;
-  border-width: 10px;
+  border-width: 20px;
   border-style: double;
 }
 
@@ -272,4 +268,10 @@ text-align:center;
 #lennon {
   font-size: 200px;
   text-align: center; 
+}
+
+#escape {
+  position: absolute; 
+  left: 0; 
+  top: 0; 
 }

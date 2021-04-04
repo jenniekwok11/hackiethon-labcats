@@ -6,6 +6,7 @@ html{
 
 .player4startcontext {
   background-color: #5d6c9b; 
+  text-align:center; 
   }
   
   
@@ -195,15 +196,12 @@ footer {
 }
 
 h1 {
-  font-size: 150px; 
+  font-size: 140px; 
 }
 
 #numbers {
   font-size: 100px; 
 }
 
-  .player4startcontext {
-  background-color: #5d6c9b ;
-  text-align: center;
-}
+
 
