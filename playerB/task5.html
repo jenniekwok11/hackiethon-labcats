@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Player A - Task 1</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+  </head>
+
+  <header class="menu-home">
+    <a href="home.html"><h1> ICEBREAKERSDON'TSUCK.</h1>
+      <img src="img/logo.png" alt="logo"></a>
+  </header>
+
+  <body class="player2startcontext">
+    <div class="topnav">
+      <a href="../aboutus.html">About Us</a>
+      <a href="../casual.html">Casual</a>
+      <a href="#professional.html">Professional</a>
+        <a href="#faq.html">FAQ</a>
+      </div>
+    
+     <div id="whitebox1"> 
+       <h3 id="lyrics">You can dream any dream. You can savour every situation. <div>Life in there's a sensational</div></h3>
+    </div> 
+  
+  <div id=centering>
+  <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
+  <button id="button1" onclick="rightanswer()">Check</button> 
+  <div id="break"></div>
+  <h2 id="message1"></h2>
+  </div>
+  <script> 
+    function rightanswer() {
+    var answer1 = inputanswer.value;
+    if (answer1 == "IMAGINE" || answer1 == "imagine" || answer1 == "Imagine) {
+      location.href = "../tasksuccess.html";
+    }
+    else {
+      document.getElementById("message1").innerHTML = "Try again!";
+    }
+    } 
+  </script> 
+
+    <footer>
+      <p>A Labcat Production</p>
+    </footer>
+  </body>
+</html>

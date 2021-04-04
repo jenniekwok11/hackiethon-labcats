@@ -245,3 +245,9 @@ footer {
   width: 100%; 
   height:auto; 
 }
+
+#lyrics {
+  text-align:center; 
+  font-size: 80px; 
+}
+
