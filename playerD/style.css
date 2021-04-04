@@ -142,6 +142,7 @@ font-size:20px;
 text-align:center;
 }
 
+<<<<<<< HEAD
 
 #whitebox1 { 
   background-color: white;
@@ -180,4 +181,9 @@ footer {
   left:0%; 
   text-align: right; 
   height: 50px; 
+=======
+.player4startcontext{
+  background-color: #5d6c9b ;
+  text-align: center;
+>>>>>>> f246f3261f23929d60fccfe078220179cffa5ba5
 }
