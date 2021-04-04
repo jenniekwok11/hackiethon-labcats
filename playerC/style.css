@@ -157,18 +157,13 @@ text-align:center;
   margin: auto;
   margin-top: 20px;
   width: 80%;
-  height: 100%;
+  height: 700px;
   padding: 20px; 
-  text-align: center; 
+  float: center;
 
 
 }
 
-#clue3 {
-  border-radius: 10px; 
-  width: 100%; 
-  height:auto; 
-}
 
 #centering {
   text-align: center; 
@@ -192,4 +187,30 @@ footer {
 .player3startcontext{
   background-color: #5d6c9b ;
   text-align: center;
+}
+
+#first {
+  text-align:center;
+  font-size: 250px;
+  position:absolute; 
+  top: 100px; 
+  left:200px; 
+}
+
+#second {
+  text-align:left;
+  font-size: 200px;
+  position: absolute;
+  top:400px; 
+  left:200px; 
+}
+
+#clue3 {
+  border-radius: 10px; 
+  width:90%; 
+  height:80%;
+  float:right; 
+  position: absolute; 
+  top: 250px;
+  right: 100px; 
 }

@@ -211,6 +211,11 @@ footer {
 
 }
 
+body {
+  height: 100%;
+  min-height:100%; 
+}
+
 #clue1 {
   height: 100%; 
   width: 100%; 
@@ -230,8 +235,12 @@ footer {
 
 footer {
   position:fixed; 
-  bottom: 0%;
-  left:0%; 
-  text-align: right; 
-  height: 50px; 
+  bottom: 0px;
+  text-align: right;
+}
+
+#clue2 {
+  border-radius: 10px; 
+  width: 100%; 
+  height:auto; 
 }
