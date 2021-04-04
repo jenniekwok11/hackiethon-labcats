@@ -20,7 +20,7 @@ footer {
 }
 
 .esc-context{
-  background-color: #586280 ;
+  background-color: #5d6c9b ;
 }
 
 .menu-home a:active{
@@ -208,6 +208,7 @@ footer {
   width: 50%;
   height: 300px;
   padding: 20px; 
+  font-size: 30px;
 
 
 }
@@ -215,13 +216,14 @@ footer {
   /* casual select player */
 #cselectplay {
   background-color: white;
-  padding: 5px;
+  padding: 15px;
   border: none;
   border-radius: 10px;
   font-size: 16px;
   text-align-last:center;
   padding-left: 10px;
   direction: ltr;
+  font-size: 20px;
   }
 
 #cselectplaytext {
@@ -232,10 +234,13 @@ footer {
 #csubmitbutton {
   float: right;
   margin-top: 12%;
-  padding: 10px;
+  padding: 15px;
   margin-right:1%;
   border-radius: 10px;
   border-style: hidden;
+  font-size: 25px;
+  font-family: 'Recursive' sans-serif;
+
 
 }
   
@@ -249,11 +254,25 @@ footer {
   padding: 20px; 
   position: static;
 }
+.esc-wel-buttons {
+ display: flex;
+ justify-content: center;
+ align-items: center;
 
+}
 .esc-wel-buttons button {
-  margin-left: 100px;
-  padding: 10px;
+  padding: 15px;
   font-size: 16px;
+  text-align: center;
+  font-family: 'Recursive', sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  
+}
+
+.esc-wel-buttons button:active{
+  background-color:#4CAF50 ;
+  color: white;
 }
 
 .chickenpng button {
