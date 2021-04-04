@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Bin Chicken - Task 3</title>
+    <title>Giggle Chicken - Task 4</title>
     <link rel ="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
         <p>Hint for Giggle Chicken: Who is this fine lad?</p>
         <div class="hintbtn4">
           <button id="hint button4" onclick="myFunction()">Hint</button>
-          <p id="hint4"></p>
+          <p style="font-size: 20px" id="hint4"></p>
           <script>
           function myFunction() {
             document.getElementById("hint4").innerHTML = "What is he known for?";
@@ -32,7 +32,7 @@
             <input id="inputanswer" type=text placeholder="Type Your Answer"/> 
             <button id="button1" onclick="rightanswer()">Check</button> 
             <div id="break"></div>
-            <h2 id="message1"></h2>
+            <p style="font-size: 10px"id="message1"></p>
             
             <div class="task4images">            
               <img src="img/einstein1.jpg" alt="old eistein">
@@ -48,7 +48,7 @@
               location.href = "task5.html";
             }
             else {
-              document.getElementById("message1").innerHTML = "Try again!";
+              document.getElementById("message1").innerHTML = "Try again! Special Hint: use online converter.";
             }
             } 
           </script> 
