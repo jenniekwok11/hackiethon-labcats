@@ -323,3 +323,8 @@ footer {
   background-size: contain;
   background-position: center;
 }
+
+.timer{
+  text-align: center;
+  font-size: 25px;
+}

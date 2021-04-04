@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>WELCOME.</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+  </head>
+
+  <header class="menu-esc">
+    <a href="home.html"><h1> ICEBREAKERSDON'TSUCK.</h1></a>
+    <h2> TOAST.</h2>
+    <a href="home.html"><img src="img/logo.png" alt="logo"></a>
+  </header>
+
+  <body class="esc-context">
+      <div id="esc-wel-text">
+          <h3> Welcome to TOAST</h3>
+          <h5> This is a game of mental thinking. Here are the rules </h5>
+          <ol> 
+            <li>Everyone gets a piece of paper/table to draw on.</li>
+            <li>Each person gets 5 minutes to draw, on how they make toast.</li>
+            <li>Once everyone has completed, show to each other and have a laugh :)</li>
+            <li>There is no wrong answer to this. Good Luck!
+          </ol>
+          <div class="timer">Time Left:<span id="timer"></span> </div>
+      </div>
+
+
+
+
+    <footer>
+        <p>A Labcat Production</p>
+    </footer>
+    <script>
+        document.getElementById('timer').innerHTML =
+        005 + ":" + 30;
+      startTimer();
+      
+      function startTimer() {
+        var presTime = document.getElementById('timer').innerHTML;
+        var timeArray = presTime.split(/[:]+/);
+        var m = timeArray[0];
+        var s = checkSecond((timeArray[1] - 1));
+        if(s==59){m=m-1}
+        if(m<0) {
+          document.getElementById("time").innerHTML = "Times Up!";
+        }
+      
+        
+        document.getElementById('timer').innerHTML =
+          m + ":" + s;
+        console.log(m)
+        setTimeout(startTimer, 1000);
+      }
+      
+      function checkSecond(sec) {
+        if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+        if (sec < 0) {sec = "59"};
+        return sec;
+      
+        
+      }
+      </script>
+  </body>
