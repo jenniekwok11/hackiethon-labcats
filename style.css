@@ -278,17 +278,19 @@ footer {
 }
 
 .chickenpng {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
+  text-align: center;
 }
+
+.column {
+  padding: 10px;
+}
+
 .chickenpng button {
   width: 200px;
   height: 250px;
   margin-left: 20px;
-  margin-top: 20px;
   margin-right: 10px;
+  margin-top: 10px;
   border: 4px solid #5d6c9b ;
 
 }
