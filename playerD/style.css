@@ -198,7 +198,12 @@ h1 {
   font-size: 150px; 
 }
 
+#numbers {
+  font-size: 100px; 
+}
+
   .player4startcontext {
   background-color: #5d6c9b ;
   text-align: center;
 }
+
