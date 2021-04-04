@@ -4,7 +4,7 @@ html{
 }
 
 
-.player3startcontext {
+.player4startcontext {
   background-color: #5d6c9b; 
   }
   
@@ -142,25 +142,29 @@ font-size:20px;
 text-align:center;
 }
 
-<<<<<<< HEAD
 
 #whitebox1 { 
   background-color: white;
   border-radius: 10px; 
   margin: auto;
   margin-top: 20px;
-  width: 80%;
-  height: 100%;
+  width: 90%;
+  height: 500px;
   padding: 20px; 
   text-align: center; 
+  float: center; 
 
 
 }
 
-#clue3 {
+#clue4 {
   border-radius: 10px; 
-  width: 100%; 
-  height:auto; 
+  width: 400px; 
+  height: 400px; 
+  float:right; 
+  position: absolute; 
+  top: 250px;
+  right: 70px; 
 }
 
 #centering {
@@ -181,9 +185,15 @@ footer {
   left:0%; 
   text-align: right; 
   height: 50px; 
-=======
-.player4startcontext{
-  background-color: #5d6c9b ;
-  text-align: center;
->>>>>>> f246f3261f23929d60fccfe078220179cffa5ba5
+}
+
+#word {
+  text-align: left; 
+  position: absolute; 
+  top: 230px;
+  left: 100px; 
+}
+
+h1 {
+  font-size: 150px; 
 }
