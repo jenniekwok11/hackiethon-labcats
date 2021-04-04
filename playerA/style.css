@@ -101,7 +101,6 @@ color: black;
     font-size: 40px;
     padding-left: 10px;
 
-<<<<<<< Updated upstream
     .menu-esc h1{
       position: fixed;
         right:0;
@@ -129,7 +128,6 @@ color: black;
       .player1startcontext{
         background-color: #5d6c9b ;
       }
-=======
 
   }
 
@@ -175,4 +173,3 @@ color: black;
 #break {
   height: 20px
 }
->>>>>>> Stashed changes
