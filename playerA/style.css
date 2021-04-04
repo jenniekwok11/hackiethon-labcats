@@ -1,25 +1,107 @@
 html{
-    font-family: 'Kiwi Maru', serif;
-    
+  font-family: 'Kiwi Maru', serif;
+  
 }
 
 footer {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+position: absolute;
+bottom: 0px;
+right: 0px;
+}
+
+.player1startcontext {
+background-color: #5d6c9b; 
+; 
+}
+
+
+.menu-home a:active{
+color: black;
+}
+
+.topnav {
+  height: 70px;
+  width: 100%;
+  overflow: auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-right: 0%;
+  padding-left: 0%;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.homecontext h1{
+    text-align: center;
+}
+
+.menu-home img{
+  float: right;
+  padding-top: 15px;
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+
+}
+
+
+.menu-home h1{
+  float: right;
+  font-family: 'Recursive', sans-serif;
+  font-size: 40px;
+  color: black;
+
 }
 
 .menu-esc img{
+  position: fixed;
+      right:480px;
+      top:10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+
+}
+
+  .menu-esc h1{
     position: fixed;
-        right:480px;
-        top:10px;
-    padding-top: 15px;
-    padding-right: 10px;
-    width: 50px;
-    height: 50px;
+      right:0;
+      top:10px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 40px;
+    color: black;
 
   }
+  .menu-esc h2{
+    position: fixed;
+      left:0;
+      top:10px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
 
+<<<<<<< Updated upstream
     .menu-esc h1{
       position: fixed;
         right:0;
@@ -47,3 +129,50 @@ footer {
       .player1startcontext{
         background-color: #5d6c9b ;
       }
+=======
+
+  }
+
+
+#whitebox1 { 
+  background-color: white;
+  border-radius: 10px; 
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  height: 100%;
+  padding: 20px; 
+
+
+}
+
+#whitebox2 { 
+  background-color: white;
+  border-radius: 10px; 
+  margin-left: auto;
+  margin-right:auto; 
+  margin-top: 20px;
+  width: 80%;
+  height: 20px; 
+  padding: 20px; 
+
+
+}
+
+#clue1 {
+  height: auto; 
+  width: 100%; 
+}
+
+#centering {
+  text-align: center; 
+}
+
+#message1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#break {
+  height: 20px
+}
+>>>>>>> Stashed changes
