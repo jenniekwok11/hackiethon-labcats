@@ -44,7 +44,7 @@ right: 0px;
       right: 0px;
     }
 
-    .player2startcontext{
+    .player3startcontext{
       background-color: #5d6c9b ;
       text-align: center;
     }
@@ -88,7 +88,6 @@ font-size:20px;
 text-align:center;
 }
 
-<<<<<<< HEAD
 
 #whitebox1 { 
   background-color: white;
@@ -127,9 +126,7 @@ footer {
   left:0%; 
   text-align: right; 
   height: 50px; 
-=======
 .player3startcontext{
   background-color: #5d6c9b ;
   text-align: center;
->>>>>>> f246f3261f23929d60fccfe078220179cffa5ba5
 }
